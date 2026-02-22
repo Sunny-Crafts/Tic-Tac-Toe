@@ -1249,6 +1249,12 @@ h1 {
 
 /* Responsive Adjustments */
 @media (max-width: 1024px) {
+    #homePage {
+        overflow-y: auto !important;
+        height: auto !important;
+        min-height: 100vh;
+    }
+
     .home-title {
         font-size: 3.2rem;
     }
