@@ -677,7 +677,7 @@ h1 {
     justify-content: flex-start;
     padding: 0 !important;
     height: 100vh;
-    overflow: hidden;
+    overflow-y: auto;
     position: relative;
 }
 
@@ -1251,8 +1251,7 @@ h1 {
 @media (max-width: 1024px) {
     #homePage {
         overflow-y: auto !important;
-        height: auto !important;
-        min-height: 100vh;
+        height: 100% !important;
     }
 
     .home-title {
